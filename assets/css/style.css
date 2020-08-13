@@ -1,0 +1,22 @@
+body{
+    font-family: 'Oswald', sans-serif;
+}
+.navegador{
+    background-color: #660066;
+    color: #FFFFFF;
+}
+.abajo{
+    height: 221px;
+    width: 100%;
+    background-color: #660066;
+}
+.ultimos{
+    background-color: #660066;
+    color: #FFFFFF;
+}
+.centro{
+    height: 482px;
+}
+.hero-arriba img{
+    width: 100%;
+}
