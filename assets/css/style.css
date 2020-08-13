@@ -20,3 +20,22 @@ body{
 .hero-arriba img{
     width: 100%;
 }
+.contacto{
+    height: 723px;
+}
+.subtitulo{
+    font-size: 52px;
+}
+.titulo{
+    font-size: 72px;
+}
+.titulo2{
+    font-size: 72px;
+    font-weight: 200;
+
+}.titulo-card{
+    font-size: 23px;
+    font-weight: 500;
+}
+
+
