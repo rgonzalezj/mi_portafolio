@@ -36,6 +36,16 @@ body{
 }.titulo-card{
     font-size: 23px;
     font-weight: 500;
+
+}.titulo-card-ex{
+    font-size: 30px;
+    font-weight: 500;
+
+}.titulo-card-ex-light{
+    font-size: 30px;
+    font-weight: 200;
 }
+
+
 
 
