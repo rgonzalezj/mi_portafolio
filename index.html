@@ -1,7 +1,7 @@
 <!doctype html>
 <html lang="es">
   <head>
-    <link href="https://fonts.googleapis.com/css2?family=Oswald:wght@200;300;400;500;600;700&display=swap" rel="stylesheet"> 
+    <link href="https://fonts.googleapis.com/css2?family=Open+Sans&family=Oswald:wght@200;300;400;500;600;700&display=swap" rel="stylesheet"> 
     <script src="https://kit.fontawesome.com/3c966d4437.js" crossorigin="anonymous"></script>
     <meta name="author" content="Rodrigo González Jorquera">
     <meta name="description" content="Mi portafolio,Proyecto FullStack en DESAFÍO LATAM- RODRIGO GONZÁLEZ JORQUERA">
@@ -21,16 +21,16 @@
              <div class="navegador">
                 <nav class="navbar navbar-expand-lg navbar-light">
                     <div class="container">
-                    <a class="navbar-brand text-white" href="https://www.rodrigo-gonzalez.cl">RGJ</a>
+                    <a class="navbar-brand text-white" href="https://www.rgj.cl">RGJ</a>
                     <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNavAltMarkup" aria-controls="navbarNavAltMarkup" aria-expanded="false" aria-label="Toggle navigation">
                     <span class="navbar-toggler-icon"></span>
                     </button>
                     <div class="collapse navbar-collapse" id="navbarNavAltMarkup">
                     <div class="navbar-nav">
                     <a class="nav-link active text-white" href="index.html">Home</a>
-                    <a class="nav-link text-white" href="sobre-mi.html">Sobre mí</a>
-                    <a class="nav-link text-white" href="experiencia.html">Experiencia</a>
-                    <a class="nav-link text-white" href="contacto.html">Contacto</a>
+                    <a class="nav-link text-white" href="#sobre-mi">Sobre mí</a>
+                    <a class="nav-link text-white" href="#experiencia">Experiencia</a>
+                    <a class="nav-link text-white" href="#contacto">Contacto</a>
                     </div>
                      </div> 
                 </nav>
@@ -86,10 +86,12 @@
                       <span class="sr-only">Next</span>
                     </a>
                   </div>
-                    <div class="text-center">
+                    <div class="carousel-content text-center">
+                    <div class="container">
                     <h1 class="titulo2">YO SOY</h1>
-                    <hr>
+                    <hr class="text-white">
                     <h1 class="titulo">RODRIGO</h1>
+                    </div>
                     </div>
                   </div>
                 </figure>
@@ -97,8 +99,9 @@
 
         <main>
             <article>
-                <div class="text-center">
-                Vivo completamente conectado al mundo de la internet y mis gustos son completamente "unppluged".
+                <div id="sobre-mi" class="texto-yosoy text-center">
+                <p>Vivo completamente conectado al mundo de la internet y mis gustos son completamente "unppluged". 
+                  <br>Mi primer nexo con la web, fue crear el sitio <strong>wallpapers.cl</strong>, que llegó a tener 1,5 millones users/mes.</br></p>
                 </div>  
                 <hr>
                 <div class="container">
@@ -124,26 +127,34 @@
 
         <!---INICIO MI EXPERIENCIA-->
         <section>
-            <h2 class="subtitulo text-center pb-5">MI EXPERIENCIA</h2>
+            <h2 id="experiencia" class="subtitulo text-center pt-4 pb-5">MI EXPERIENCIA</h2>
             <div class="container pb-5 d-flex justify-content-center">
                 <div class="row">
                   <div class="col">
                     <div class="card" style="width: 18rem;">
-                      <i class="far fa-object-group fa-7x text-center"></i>
+                      <i class="far fa-object-group fa-7x text-center text-danger"></i>
                       <div class="card-body">
                         <h3 class="titulo-card-ex text-center">Optimización de contenidos</h3>
                         <h3 class="titulo-card-ex-light text-center">2000-2006</h3>
                         <p class="card-text">Optimización de sitios web para Google, desarrollo de contenidos para sitios web.</p>
+                        <div class="d-flex justify-content-center">
+                        <a href="#contacto"><button type="button" class="btn btn-dark rounded-pill bg-dark text-white" data-toggle="tooltip" data-placement="left" title="¿Quieres saber más de mi?">
+                          ¿Más sobre mi?</button></a>
+                        </div>
                       </div>
                     </div>
                   </div>
                   <div class="col">
                     <div class="card" style="width: 18rem;">
-                      <i class="far fa-save fa-7x text-center"></i>
+                      <i class="far fa-save fa-7x text-center text-danger"></i>
                       <div class="card-body">
                         <h3 class="titulo-card-ex text-center">Proyectos SEO y Proyectos Web</h3>
                         <h3 class="titulo-card-ex-light text-center">2007-2020</h3>
                         <p class="card-text">Dirección de Proyectos SEO y coordinación de proyectos web Front-Back.</p>
+                        <div class="d-flex justify-content-center">
+                        <a href="#contacto"><button type="button" class="btn btn-dark rounded-circle bg-danger text-white" data-toggle="tooltip" data-placement="right" title="¿Quieres saber más de mi?">
+                          ¡Hablemos!</button></a>
+                        </div>
                       </div>
                     </div>
                   </div>
@@ -153,7 +164,7 @@
         <!---GRID ULTIMOS TRABAJOS-->
         <section class="ultimos pt-5">
             <div class="container">
-            <h2 class="subtitulo font-weight-bold d-flex justify-content-center"> MIS ÚLTIMOS TRABAJOS</h2>
+            <h2 class="subtitulo font-weight-bold d-flex justify-content-center text-center"> MIS ÚLTIMOS TRABAJOS</h2>
             <hr>
             </div>
                         
@@ -161,56 +172,55 @@
             <div class="container">
                 <div class="row">
                 <div class="col-sm bg-white text-dark m-2 pt-2 pb-5">
-                <img src="assets/images/meet_coffee.png" alt="Trabajo de Meet and Coffe" width="316" height="180">
-                <h3 class="titulo-card">Meet and Cofee</h3>
-                <p>Felis tincidunt vel risus lacus posuere dignissim habitasse sapien.</p>
+                <img src="assets/images/portafolio-cadaal.jpg" alt="Sitio web de Cadaal Ascensores en wordpreess" width="316" height="180">
+                <h3 class="titulo-card pt-3"><a href="http://wp1.sastreriaweb.cl">Cadaal Ascensores</a></h3>
+                <p>Construcción de sitio hecho 100% en Wordpress + plantillas.</p>
                 </div>
 
                 <div class="col-sm bg-white text-dark m-2 pt-2 pb-5">
-                <img src="assets/images/iguana_page.png" alt="Trabajo de la iguana Page" width="316" height="180">
-                <h3 class="titulo-card">Iguana Page</h3>
-                <p>Felis tincidunt vel risus lacus posuere dignissim habitasse sapien</p>
+                <img src="assets/images/portafolio-ksb.jpg" alt="Optimización de KSB" width="316" height="180">
+                <h3 class="titulo-card pt-3"><a href="https://www.ksb.cl">Bombas KSB Chile</a></h3>
+                <p>Optimización del sitio web, Google Business y Maps de sucursales regiones</p>
                 </div>
 
                 <div class="col-sm bg-white text-dark m-2 pt-2 pb-5">
-                <img src="assets/images/suricata.png" alt="Trabajo de la Suricata" width="316" height="180">
-                <h3 class="titulo-card">Suricata</h3>
-                <p>Felis tincidunt vel risus lacus posuere dignissim habitasse sapien</p>
+                <img src="assets/images/portafolio-hormisur.jpg" alt="Optimización de Hormisur" width="316" height="180">
+                <h3 class="titulo-card pt-3"><a href="https://www.hormisur.cl">Prefabricados Hormisur</a></h3>
+                <p>Optimización para Google, contenidos, Google Business y Maps casa matriz y sucursales</p>
                 </div>
                 </div>
             </div>
 
 
-            <div class="container">
+            <div class="container  pb-5">
                 <div class="row">
                 <div class="col-sm bg-white text-dark m-2 pt-2 pb-5">
-                <img src="assets/images/cuppon.png" alt="Trabajo de Cuppon" width="316" height="180">
-                <h3 class="titulo-card">Cuppon</h3>
-                <p>Felis tincidunt vel risus lacus posuere dignissim habitasse sapien.</p>
+                <img src="assets/images/portafolio-lorenzini.jpg" alt="Optimización de Lorenzini" width="316" height="180">
+                <h3 class="titulo-card pt-3"><a href="http://www.lorenzini.cl">Lorenzini</a></h3>
+                <p>Optimización web, SEO, Google Business y posicionamiento mapas</p>
                 </div>
                                         
                 <div class="col-sm bg-white text-dark m-2 pt-2 pb-5">
-                <img src="assets/images/ricomida.png" alt="Trabajo de Ricomida" width="316" height="180">
-                <h3 class="titulo-card">Ricomida</h3>
-                <p>Felis tincidunt vel risus lacus posuere dignissim habitasse sapien</p>
+                <img src="assets/images/portafolio-mercadobodegas.jpg" alt="Comparador Mercadobodegas" width="316" height="180">
+                <h3 class="titulo-card pt-3"><a href="https://www.mercadobodegas.cl">Mercadobodegas.cl</a></h3>
+                <p>Asesoría SEO, optimización de contenidos y generación de contenidos modalidad "findability"</p>
                 </div>
                     
                 <div class="col-sm bg-white text-dark m-2 pt-2 pb-5">
-                <img src="assets/images/dmark.png" alt="Trabajo de Dmark" width="316" height="180">
-                <h3 class="titulo-card">D Mark</h3>
-                <p>Felis tincidunt vel risus lacus posuere dignissim habitasse sapien</p>
+                <img src="assets/images/portafolio-metalpar.jpg" alt="Optimización Metalpar" width="316" height="180">
+                <h3 class="titulo-card pt-3"><a href="https://www.metalpar.cl">METALPAR</a></h3>
+                <p>Coordinador de proyectos Front-Back y ecommerce. Encargado de SEO para el proyecto</p>
                 </div>
                 </div>
             </div>
         </section>
      
-        <section class="contacto text-center">
-          <h2 class="subtitulo pt-5">CONTACTO</h2>
-          <hr>
-          <p>¿Quieres conocer más de mi?</p>
+        <section id="contacto" class="contacto text-center">
+          <h2 class="subtitulo2 pt-5">CONTACTO</h2>
+          <hr class="space-bottom"> 
+          <p class="titulo-card">¿Quieres conocer más de mi?</p>
           <div class="pb-5">
-          <button type="button" class="btn btn-dark text-secondary" data-toggle="tooltip" data-placement="right" title="Contáctame para saber más de mí">
-          COMENZAR</button>
+          <a class="typeform-share button" href="https://form.typeform.com/to/HWb43mve" data-mode="popup" style="display:inline-block;text-decoration:none;background-color:#000000;color:#808080;cursor:pointer;font-family:Helvetica,Arial,sans-serif;font-size:20px;line-height:50px;text-align:center;margin:0;height:50px;padding:0px 33px;border-radius:25px;max-width:100%;white-space:nowrap;overflow:hidden;text-overflow:ellipsis;font-weight:bold;-webkit-font-smoothing:antialiased;-moz-osx-font-smoothing:grayscale;" target="_blank">COMENZAR </a> <script> (function() { var qs,js,q,s,d=document, gi=d.getElementById, ce=d.createElement, gt=d.getElementsByTagName, id="typef_orm_share", b="https://embed.typeform.com/"; if(!gi.call(d,id)){ js=ce.call(d,"script"); js.id=id; js.src=b+"embed.js"; q=gt.call(d,"script")[0]; q.parentNode.insertBefore(js,q) } })() </script>
           </div>
         </section>   
         

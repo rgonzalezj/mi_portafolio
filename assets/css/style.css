@@ -15,7 +15,8 @@ body{
     color: #FFFFFF;
 }
 .centro{
-    height: 482px;
+    font-family: 'Open Sans', sans-serif;
+    font-size: 16px;
 }
 .hero-arriba img{
     width: 100%;
@@ -25,17 +26,63 @@ body{
 }
 .subtitulo{
     font-size: 52px;
+    font-family: 'Oswald', sans-serif;
+}
+.subtitulo2{
+    font-size: 52px;
+    font-family: 'Oswald', sans-serif;
+}
+.space-bottom{
+    padding-bottom: 100px;
 }
 .titulo{
     font-size: 72px;
 }
+
+@media screen and (max-width: 414px){
+    .titulo {
+    font-size: 20px;
+    font-weight: 200;
+    padding-bottom: 2px;
+    }
+}   
 .titulo2{
     font-size: 72px;
     font-weight: 200;
+}   
+
+    @media screen and (max-width: 414px){
+        .titulo2 {
+        font-size: 20px;
+        font-weight: 200;
+        padding-top: 2px;
+        }
+    }   
 
 }.titulo-card{
     font-size: 23px;
-    font-weight: 500;
+    font-weight: 400;
+
+}.titulo-card a{
+    color: #ff3336;
+    a:link {
+    text-decoration: none;  
+      }
+      
+      a:visited {
+      color: green;
+      text-decoration: none;
+      }
+      
+      a:hover {
+        color: purple;
+        text-decoration: underline;
+      }
+      
+      a:active {
+        text-decoration: underline;
+        color: purple;
+      }
 
 }.titulo-card-ex{
     font-size: 30px;
@@ -45,7 +92,37 @@ body{
     font-size: 30px;
     font-weight: 200;
 }
+.texto-yosoy{
+    font-family: 'Open Sans', sans-serif;
+    font-size: 25px;
+    font-weight: 300;
+}
+.carousel-indicators li {
+    width: 20px;
+    height: 20px;
+    border-radius: 30%;
+  }
+  .carousel-content {
+    position: absolute;
+    background-size:  cover;
+    bottom: 7%;
+    left: 40%;
+    z-index: 10;
+    color: white;
+    text-shadow: 0 1px 2px rgba(0,0,0,.6);
+}
+  
 
-
+@media screen and (max-width: 414px){
+    .carousel-content {
+    position: absolute;
+    background-size:  cover;
+    bottom: 65%;
+    left: 30%;
+    z-index: 20;
+    color: white;
+    text-shadow: 0 1px 2px rgba(0,0,0,.6);
+    }
+}   
 
 
