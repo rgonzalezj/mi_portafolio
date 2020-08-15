@@ -1,6 +1,22 @@
 body{
     font-family: 'Oswald', sans-serif;
 }
+a{
+    text-orientation: none;
+    }
+    a:link{
+        color: #dedede;
+    }
+    a:hover{
+        text-decoration: underline;
+        background-color: #000000;
+        color: #ffffff;
+    }
+    a:active{
+        color: #ff3336;
+        text-decoration: overline;
+    }
+}
 .experiencia{
   background-image: url('../images/bg_rgj.jpg');
   background-repeat: no-repeat;
@@ -21,15 +37,6 @@ html {
     font-size: 18px;
     font-weight: 300;
 }
-.menu a{
-    color: #FFFFFF;
-    text-decoration: underline;  
-      }
-    a:hover {
-    color: purple;
-    text-decoration: underline;
-  }
-}
 
 hr{
     height: 10px;
@@ -42,7 +49,6 @@ hr{
 }
 .abajo{
     height: 221px;
-    width: 100%;
     background-color: #660066;
 }
 .ultimos{
@@ -74,7 +80,6 @@ hr{
 .space-bottom{
     padding-bottom: 100px;
 }
-
 .bolder{
     font-family: 'Roboto', sans-serif;
     font-weight: 800;
@@ -108,27 +113,6 @@ hr{
     font-size: 23px;
     font-weight: 400;
 
-}.titulo-card a{
-    color: #ff3336;
-    a:link {
-    text-decoration: none;  
-      }
-      
-      a:visited {
-      color: green;
-      text-decoration: none;
-      }
-      
-      a:hover {
-        color: purple;
-        text-decoration: underline;
-      }
-      
-      a:active {
-        text-decoration: underline;
-        color: purple;
-      }
-
 }.titulo-card-ex{
     font-size: 30px;
     font-weight: 500;
@@ -146,7 +130,7 @@ hr{
     width: 20px;
     height: 20px;
     border-radius: 30%;
-  }
+}
 
   .carousel-content {
     position: absolute;
@@ -158,7 +142,6 @@ hr{
     text-shadow: 0 1px 2px rgba(0,0,0,.6);
 }
   
-
 @media screen and (max-width: 414px){
     .carousel-content {
     position: absolute;
