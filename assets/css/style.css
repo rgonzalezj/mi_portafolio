@@ -17,15 +17,12 @@ a{
         text-decoration: overline;
     }
 }
-.experiencia{
-  background-image: url('../images/bg_rgj.jpg');
-  background-repeat: no-repeat;
-  background-size: cover;
-  background-position: left;
-  padding-bottom: 0.2rem;
-}
+
 html {
     scroll-behavior: smooth;
+}
+strong{
+    font-weight: 800;
 }
 .brand{
     font-family: 'Oswald', sans-serif;
@@ -33,7 +30,7 @@ html {
     font-weight: 800;
 }
 .menu{
-    font-family: 'Roboto', sans-serif;
+    font-family: 'Open Sans', sans-serif;
     font-size: 18px;
     font-weight: 300;
 }
@@ -43,6 +40,13 @@ hr{
     width: 15%;
     color: #000000;
 }
+.fondo-contacto{
+    background-image: url('../images/bg_rgj.jpg');
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: left;
+    padding-bottom: 0.2rem;
+  }
 .navegador{
     background-color: #660066;
     color: #FFFFFF;
@@ -81,7 +85,7 @@ hr{
     padding-bottom: 100px;
 }
 .bolder{
-    font-family: 'Roboto', sans-serif;
+    font-family: 'Oswald', sans-serif;
     font-weight: 800;
     text-decoration: underline;
 }
